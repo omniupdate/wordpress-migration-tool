@@ -92,6 +92,9 @@ def update_plugin_references(path, content)
   new_content.gsub!(/[\n]/, "<br/>")
   new_content.gsub!("--> <br/> <!--", "--> \n <!--")
 
+  #ensure returned contnet is valid xhtml for OU Campus PCFs
+  new_content = Nokogiri.HTML(new_content).xpath("//body/node()").to_xhtml() 
+
   return new_content
 end
 
