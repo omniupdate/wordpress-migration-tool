@@ -70,7 +70,7 @@ The following steps show how to generate a WordPress export that this script may
  3. Once desired elements have been chosen, click "Download Export File" button and an xml file of the WordPress site content will be downloaded. 
  4. Repeat the above steps for each instance of WordPress that you would like to import into a single site in OU Campus. 
 
-More details on this process can be found on WordPress' [Tools Export Screen Documentation](https://codex.wordpress.org/Tools_Export_Screen).
+More details on this process can be found on WordPress' [Tools Export Screen Documentation](https://wordpress.org/support/article/tools-export-screen/).
 
 ## Migration Process
 
