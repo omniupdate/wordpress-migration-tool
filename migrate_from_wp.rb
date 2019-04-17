@@ -100,7 +100,7 @@ else
 
           #append current items to full xml
           xml_items = Nokogiri.XML(xml_file).search('item')
-          full_xml_doc.at('item').add_child(xml_items)
+          full_xml_doc.at('channel').add_child(xml_items)
         end
       end
     end
